@@ -115,14 +115,8 @@
       <ImportLibrary>..\Lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(OutDir)$(TargetName).dll    $(ProjectDir)..\..\..\Projects\Unreal\Engine\Binaries\Win64
-copy $(OutDir)$(TargetName).pdb $(ProjectDir)..\..\..\Projects\Unreal\Engine\Binaries\Win64
-
-copy $(OutDir)$(TargetName).dll    $(ProjectDir)..\..\..\Projects\Unreal\Engine\Binaries\ThirdParty\HengXinApi\Win64
-
-copy $(ProjectDir)..\Lib\$(ConfigurationName)\$(TargetName).lib $(ProjectDir)..\..\..\Projects\Unreal\Engine\Source\ThirdParty\HengXinApi\lib\Win64
-copy $(ProjectDir)..\include\AVFastCodecLib.h $(ProjectDir)..\..\..\Projects\Unreal\Engine\Source\ThirdParty\HengXinApi\include
-copy $(ProjectDir)..\include\NetImageShare.h $(ProjectDir)..\..\..\Projects\Unreal\Engine\Source\ThirdParty\HengXinApi\include</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
