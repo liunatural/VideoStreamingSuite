@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="h264codec">
+      <UniqueIdentifier>{caf4f09e-3011-4216-a7c3-0e76c08294a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h265codec">
+      <UniqueIdentifier>{1cd68e1d-aa84-46d1-8535-9742e7b2b7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{ebce8422-4f4f-430c-a829-a96a14566227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVFastCodevAPI">
+      <UniqueIdentifier>{3d7d694b-2d6b-4987-b4d9-cdfb341cdf88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImagePartition.h">
+      <Filter>h264codec</Filter>
+    </ClInclude>
+    <ClInclude Include="FFMEncWrapper.h">
+      <Filter>h265codec</Filter>
+    </ClInclude>
+    <ClInclude Include="H265Decoder.h">
+      <Filter>h265codec</Filter>
+    </ClInclude>
+    <ClInclude Include="H265Encoder.h">
+      <Filter>h265codec</Filter>
+    </ClInclude>
+    <ClInclude Include="H264Decoder.h">
+      <Filter>h264codec</Filter>
+    </ClInclude>
+    <ClInclude Include="H264Encoder.h">
+      <Filter>h264codec</Filter>
+    </ClInclude>
+    <ClInclude Include="x264EncWrapper.h">
+      <Filter>h264codec</Filter>
+    </ClInclude>
+    <ClInclude Include="x265EncWrapper.h">
+      <Filter>h265codec</Filter>
+    </ClInclude>
+    <ClInclude Include="xColorSpace.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AVFastCodecLib.h">
+      <Filter>AVFastCodevAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="FFMDecWrapper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImagePartition.cpp">
+      <Filter>h264codec</Filter>
+    </ClCompile>
+    <ClCompile Include="FFMEncWrapper.cpp">
+      <Filter>h265codec</Filter>
+    </ClCompile>
+    <ClCompile Include="H265Decoder.cpp">
+      <Filter>h265codec</Filter>
+    </ClCompile>
+    <ClCompile Include="H265Encoder.cpp">
+      <Filter>h265codec</Filter>
+    </ClCompile>
+    <ClCompile Include="H264Decoder.cpp">
+      <Filter>h264codec</Filter>
+    </ClCompile>
+    <ClCompile Include="x264Tunning.cpp">
+      <Filter>h264codec</Filter>
+    </ClCompile>
+    <ClCompile Include="H264Encoder.cpp">
+      <Filter>h264codec</Filter>
+    </ClCompile>
+    <ClCompile Include="x264EncWrapper.cpp">
+      <Filter>h264codec</Filter>
+    </ClCompile>
+    <ClCompile Include="x265EncWrapper.cpp">
+      <Filter>h265codec</Filter>
+    </ClCompile>
+    <ClCompile Include="xColorSpace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="AVFastCodecLib.cpp">
+      <Filter>AVFastCodevAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="FFMDecWrapper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
